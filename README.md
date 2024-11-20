@@ -1,10 +1,9 @@
-
 # Conexión Inclusiva 2024
 ### Presentación
 Conexión Inclusiva 2024 es un proyecto destinado a mejorar la conectividad a Internet en las provincias de Argentina con menor acceso. Dado que la conectividad es un factor clave para el desarrollo económico y 
 social, el proyecto busca implementar soluciones tecnológicas innovadoras, como la expansión de infraestructura de fibra óptica y la implementación de tecnologías satelitales, para mejorar el acceso a internet 
 en zonas rurales y menos urbanizadas.
-![Logo empresa](C:\Users\malen\OneDrive\Escritorio\proyecto n°2\DALL·E 2024-11-19 23.55.23 - Logo design for a company called 'Conecta Futuro' without any text. The logo should symbolize connectivity and the future of the internet. Incorporate.webp)
+![Logo empresa](logo.png)
 
 Este proyecto es liderado por Conecta Futuro, una empresa con una fuerte visión de inclusión digital, comprometida con reducir la brecha digital y garantizar el acceso a Internet en toda la Argentina, 
 especialmente en provincias que presentan baja conectividad en comparación con otras regiones del país.
