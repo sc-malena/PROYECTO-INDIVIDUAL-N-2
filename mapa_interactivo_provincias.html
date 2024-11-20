@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b77356d23d507dc366e50e63d50087d0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b77356d23d507dc366e50e63d50087d0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b77356d23d507dc366e50e63d50087d0 = L.map(
+                "map_b77356d23d507dc366e50e63d50087d0",
+                {
+                    center: [-38.4161, -63.6167],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ed08ecacfc25c899b63a98b13ea7e9b6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ed08ecacfc25c899b63a98b13ea7e9b6.addTo(map_b77356d23d507dc366e50e63d50087d0);
+        
+    
+            var circle_marker_0d8d7b2023f4417860475547366ff127 = L.circleMarker(
+                [-28.4684, -65.785],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77356d23d507dc366e50e63d50087d0);
+        
+    
+        var popup_f4a6234202488df38340bf396f478132 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deec1e944fad2aae5e495a3c224b16c6 = $(`<div id="html_deec1e944fad2aae5e495a3c224b16c6" style="width: 100.0%; height: 100.0%;">Provincia: CATAMARCA<br>Accesos: 30<br>Velocidad (Mbps): 15.5</div>`)[0];
+                popup_f4a6234202488df38340bf396f478132.setContent(html_deec1e944fad2aae5e495a3c224b16c6);
+            
+        
+
+        circle_marker_0d8d7b2023f4417860475547366ff127.bindPopup(popup_f4a6234202488df38340bf396f478132)
+        ;
+
+        
+    
+    
+            var circle_marker_1b5c4e31d8b0ab6a6b0c96a1b5038f39 = L.circleMarker(
+                [-26.1843, -58.1713],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77356d23d507dc366e50e63d50087d0);
+        
+    
+        var popup_ba357738206203bb62f48bc3885e0282 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f51e15a515ebb722704f0a82021ec779 = $(`<div id="html_f51e15a515ebb722704f0a82021ec779" style="width: 100.0%; height: 100.0%;">Provincia: FORMOSA<br>Accesos: 50<br>Velocidad (Mbps): 20.3</div>`)[0];
+                popup_ba357738206203bb62f48bc3885e0282.setContent(html_f51e15a515ebb722704f0a82021ec779);
+            
+        
+
+        circle_marker_1b5c4e31d8b0ab6a6b0c96a1b5038f39.bindPopup(popup_ba357738206203bb62f48bc3885e0282)
+        ;
+
+        
+    
+    
+            var circle_marker_a2f8768ea4e22b72fe42ad9571715422 = L.circleMarker(
+                [-49.6467, -67.2905],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77356d23d507dc366e50e63d50087d0);
+        
+    
+        var popup_b394c6969c03ce836b68bcf8cff25f2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af1b1603283d2c8e9c0dbb08c9586211 = $(`<div id="html_af1b1603283d2c8e9c0dbb08c9586211" style="width: 100.0%; height: 100.0%;">Provincia: SANTA CRUZ<br>Accesos: 40<br>Velocidad (Mbps): 18.0</div>`)[0];
+                popup_b394c6969c03ce836b68bcf8cff25f2f.setContent(html_af1b1603283d2c8e9c0dbb08c9586211);
+            
+        
+
+        circle_marker_a2f8768ea4e22b72fe42ad9571715422.bindPopup(popup_b394c6969c03ce836b68bcf8cff25f2f)
+        ;
+
+        
+    
+    
+            var circle_marker_f63957551009d81a8365c68c33d5a44c = L.circleMarker(
+                [-54.8019, -68.3029],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77356d23d507dc366e50e63d50087d0);
+        
+    
+        var popup_9fd914d439ec7c1acc6ac4db522369f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c1909852e9fec610c6d0d392ec49f64 = $(`<div id="html_9c1909852e9fec610c6d0d392ec49f64" style="width: 100.0%; height: 100.0%;">Provincia: TIERRA DEL FUEGO<br>Accesos: 60<br>Velocidad (Mbps): 25.0</div>`)[0];
+                popup_9fd914d439ec7c1acc6ac4db522369f0.setContent(html_9c1909852e9fec610c6d0d392ec49f64);
+            
+        
+
+        circle_marker_f63957551009d81a8365c68c33d5a44c.bindPopup(popup_9fd914d439ec7c1acc6ac4db522369f0)
+        ;
+
+        
+    
+    
+            var circle_marker_f362d020ac2c128213d08eaff53837c8 = L.circleMarker(
+                [-34.611778, -58.417309],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77356d23d507dc366e50e63d50087d0);
+        
+    
+        var popup_bfc436afd3a2799d15ac4152e93196a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a7ac0e30747e1db595d9ebfddd2f36c = $(`<div id="html_7a7ac0e30747e1db595d9ebfddd2f36c" style="width: 100.0%; height: 100.0%;">Provincia: CABA<br>Accesos: 90<br>Velocidad (Mbps): 30.0</div>`)[0];
+                popup_bfc436afd3a2799d15ac4152e93196a6.setContent(html_7a7ac0e30747e1db595d9ebfddd2f36c);
+            
+        
+
+        circle_marker_f362d020ac2c128213d08eaff53837c8.bindPopup(popup_bfc436afd3a2799d15ac4152e93196a6)
+        ;
+
+        
+    
+</script>
+</html>
